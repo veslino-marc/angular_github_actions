@@ -10,6 +10,7 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.scss'
 })
 export class App {
+  myName = signal('Angular Developer');
   colors = signal<string[]>([]);
   fnum = signal('');
   snum = signal('');
