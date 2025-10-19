@@ -66,4 +66,4 @@ export class App {
   quoNumb(): void {
     this.result.set(`${(+this.fnum()) / (+this.snum())}`);
   }
-}sda
+}
